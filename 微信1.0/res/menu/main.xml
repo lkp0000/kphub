@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lkp.wechat.MainActivity" 
+    
+    >
+    <item 
+        android:visible="true"
+        android:id="@+id/tuichumenu" android:title="退出" 
+        android:icon="@drawable/icon"
+        android:actionLayout="@layout/menulayout" android:enabled="true">
+        <menu></menu>
+        
+    </item>
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/actionbar_bg"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            
+            
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/actionbar_logo"
+            android:paddingLeft="12dp"
+             />
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="微信"
+            android:layout_marginLeft="12dp"
+            android:textColor="#d3d3d3"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"  
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/actionbar_search" />
+        
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/actionbar_add" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/actionbar_menu" />
+        
+    </LinearLayout>
+    
+    
+    
+
+</RelativeLayout>
